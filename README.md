@@ -7,6 +7,7 @@ Un projet basé sur HTML5, CSS3, JavaScript et Canvas.
 - ![HTML5](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**
 - ![CSS3](https://img.icons8.com/color/48/000000/css3.png) **CSS3**
 - ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript**
+- ![Canvas](canva.png) **Canvas**
 
 ## Description
 
