@@ -1,32 +1,65 @@
-* 
-{
+/* Global Reset */
+* {
     box-sizing: content-box;
 }
 
-html 
-{
+/* Assurez-vous que l'élément html prend toute la hauteur et largeur */
+html {
     height: 100%;
     width: 100%;
 }
 
-body
-{
-    /* structure */
+/* Corps de la page */
+body {
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* presentation */
     background-color: #8A0808;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    /* Permet d'utiliser positionnement absolu pour les enfants comme le footer */
 }
 
-canvas
-{
+/* Style du canvas */
+canvas {
     background-color: white;
     border: 20px ridge gold;
+}
+
+/* Styles pour le footer */
+.footer {
+    position: fixed;
+    /* Position fixe */
+    bottom: 0;
+    /* Collé en bas */
+    right: 0;
+    /* Collé à droite */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Optionnel : fond semi-transparent */
+    color: white;
+    /* Texte blanc */
+    padding: 10px;
+    text-align: center;
+    z-index: 100;
+    /* Met le footer au-dessus des autres éléments */
+    width: 100%;
+    /* S'assure que le footer prend toute la largeur */
+}
+
+/* Optionnel : pour l'image du footer */
+.footer img {
+    max-width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Optionnel : pour styliser le texte */
+.footer p {
+    margin: 5px;
+    font-size: 14px;
 }
