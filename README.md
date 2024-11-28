@@ -16,4 +16,5 @@ Ce projet utilise les technologies mentionnées ci-dessus pour créer une œuvre
 
 1. Clonez le dépôt.
 2. Ouvrez le fichier `index.html` dans votre navigateur.
+3. Ou excécuter la commande depuis votre terminal `open index.html`
 
